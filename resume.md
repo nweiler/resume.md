@@ -1,60 +1,68 @@
-<!-- The (first) h1 will be used as the <title> of the HTML page -->
-# Richard Hendricks
+# Nick Weiler
+- Granger, IN, USA
+- [GitHub](https://github.com/nweiler)
 
-<!-- The unordered list immediately after the h1 will be formatted on a single
-line. It is intended to be used for contact details -->
-- <richard.hendriks@mail.com>
-- (912) 555-4321
-- [richardhendricks.example.com](http://richardhendricks.example.com)
-- San Francisco, CA
-
-<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
-is intended to be used for a short summary. -->
-CEO and Software Engineer with knowledge of applied information theory,
-including optimizing lossless compression schema of both the length-limited and
-adaptive variants.
+I am a software engineer with extensive experience in DevOps, automation, and process improvement. I focus on strong relationships, high quality software, and sound engineering basics to achieve business goals.
 
 ## Experience
 
-<!-- You have to wrap the "left" and "right" half of these headings in spans by
-hand -->
-### <span>CEO/President, Pied Piper</span> <span>Dec 2013 -- Dec 2014</span>
+### <span>Director of DevOps, Aunalytics, Inc.</span> <span>Dec 2017 - present</span>
 
-Pied Piper is a multi-platform technology based on a proprietary universal
-compression algorithm that has consistently fielded high Weisman Scores™ that
-are not merely competitive, but approach the theoretical limit of lossless
-compression.
+  - Co-led the transition from a bespoke container platform to a Kubernetes based container orchestrator
+  - Planend and executed the migration process to a new container registry solution
+  - Led a platform database re-architecture initiative to implement active replication
+  - Currently implementing a GitOps pipeline for declarative, automated deployments
 
- - Build an algorithm for artist to detect if their music was violating
-   copyright infringement laws
- - Successfully won Techcrunch Disrupt
- - Optimized an algorithm that holds the current world record for Weisman Scores
+### <span>Lead DevOps Engineer, Aunalytics, Inc.</span> <span>May 2016 - Dec 2017</span>
 
-### <span>Teacher, CoderDojo</span> <span>July 2013 -- Dec 2013</span>
+  - Co-led the transition from bare microservices to a container-based platform architecture
+  - Collaborated with a small group of engineers to select and integrate a container orchestrator
+  - Designed and developed an in-house data science notebooking platform
+  - Co-authored a zero-downtime deployment pipeline and process
 
-Global movement of free coding clubs for young people.
+### <span>Software Engineer, Aunalytics, Inc.</span> <span>February 2014 - May 2016</span>
 
- - Awarded 'Teacher of the Month'
+  - Designed and coded the administrator interface for our data science software platform
+  - Programmed multiple software utilities for data science investigations
+  - Organized and performed platform maintenance, upgrades, and troubleshooting
+  - Used internal and external tools to perform data cleaning, data linking, and analysis
+  - Conducted conference calls with clients to share findings
 
-## Projects
+### <span>Applications Developer, Morningstar, Inc.</span> <span>May 2012 - January 2014</span>
 
-### <span>Miss Direction</span> <span>Aug 2016</span>
+  - Designed, implemented and maintained multiple Jenkins CI environments
+  - Developed Puppet framework for automated configuration management
+  - Gained extensive experience with Jenkins, Puppet, and Linux system administration
+  - Performed frequent, zero-downtime, production releases for mission-critical systems
+  - Worked with development teams to create automated product deployment solutions
 
-A mapping engine that misguides you:
+### <span>Information Security Intern, Morningstar, Inc.</span> <span>September 2011 - May 2012</span>
 
-   - Won award at AIHacks 2016
-   - Built by all women team of newbie programmers
-   - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
+  - Applied knowledge of vulnerabilities to assist in securing enterprise applications
+  - Gained knowledge of specific tools and techniques for hardening
+  - Performed penetration tests on company applications
+  - Monitored company networks via intrusion detection system
+
+### <span>Senior Rebate Analyst, Customer Finance, Solo Cup Co.</span> <span>November 2008 – May 2011</span>
+
+  - Designed and implemented multiple databases to improve speed and accuracy of accruals and reporting
+  - Responsible for millions in monthly rebate accrual calculations
+  - Presently result monthly to VPs and senior accountants
+  - Performed testing and documentation for third party software implementaion
 
 ## Education
 
-### <span>University of Oklahoma, BA Information Technology</span> <span>2011 -- 2014</span>
+### Loyola University Chicago, MS Software Engineering<span>2010 - 2013</span>
 
-  - GPA 4.0
-  - DB1101 - Basic SQL
-  - CS2011 - Java Introduction
+  - Dijkstra Award for Overall Academic Excellence, May 2012
+  - GPA 4.0 GPA
 
-## Skills
+### <span>The University of Notre Dame, BA Economics and Policy Studies</span><span>2002 – 2006</span>
 
- - Web development: HTML, CSS, JavaScript
- - Compression: Mpeg, MP4, GIF
+  - Minor in Music Theory
+
+### Honors, Skills, Activities
+
+  - Brazilian Jiu-Jitsu Purple Belt, Avid musician
+  - Seven-Time Solo Strong Award Winner
+  - Two-time U.S. Bank Excel Award winner - November 2006 and March 2007

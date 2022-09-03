@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Richard Hendricks</title>
+<title>Nick Weiler</title>
 <style>
 body {
     color: #000000;
@@ -84,6 +84,11 @@ h1 + ul + p {
         box-shadow: none;
         -webkit-box-shadow: none;
     }
+    /* Do not underline abbr tags in PDF */
+    abbr {
+        text-decoration: none;
+        font-variant: none;
+    }
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
     a, a:link, a:visited, a:hover {
@@ -118,59 +123,72 @@ h1 + ul + p {
 </head>
 <body>
 <div id="resume">
-<!-- The (first) h1 will be used as the <title> of the HTML page -->
-<h1>Richard Hendricks</h1>
-<!-- The unordered list immediately after the h1 will be formatted on a single
-line. It is intended to be used for contact details -->
+<h1>Nick Weiler</h1>
 <ul>
-<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#105;&#99;&#104;&#97;&#114;&#100;&#46;&#104;&#101;&#110;&#100;&#114;&#105;&#107;&#115;&#64;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#114;&#105;&#99;&#104;&#97;&#114;&#100;&#46;&#104;&#101;&#110;&#100;&#114;&#105;&#107;&#115;&#64;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
-<li>(912) 555-4321</li>
-<li><a href="http://richardhendricks.example.com">richardhendricks.example.com</a></li>
-<li>San Francisco, CA</li>
+<li>Granger, IN, USA</li>
+<li><a href="https://github.com/nweiler">GitHub</a></li>
 </ul>
-<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
-is intended to be used for a short summary. -->
-<p>CEO and Software Engineer with knowledge of applied information theory,
-including optimizing lossless compression schema of both the length-limited and
-adaptive variants.</p>
+<p>I am a software engineer with extensive experience in DevOps, automation, and process improvement. I focus on strong relationships, high quality software, and sound engineering basics to achieve business goals.</p>
 <h2>Experience</h2>
-<!-- You have to wrap the "left" and "right" half of these headings in spans by
-hand -->
-<h3><span>CEO/President, Pied Piper</span> <span>Dec 2013 &ndash; Dec 2014</span></h3>
-<p>Pied Piper is a multi-platform technology based on a proprietary universal
-compression algorithm that has consistently fielded high Weisman Scores™ that
-are not merely competitive, but approach the theoretical limit of lossless
-compression.</p>
+<h3><span>Director of DevOps, Aunalytics, Inc.</span> <span>Dec 2017 - present</span></h3>
 <ul>
-<li>Build an algorithm for artist to detect if their music was violating
-   copyright infringement laws</li>
-<li>Successfully won Techcrunch Disrupt</li>
-<li>Optimized an algorithm that holds the current world record for Weisman Scores</li>
+<li>Co-led the transition from a bespoke container platform to a Kubernetes based container orchestrator</li>
+<li>Planend and executed the migration process to a new container registry solution</li>
+<li>Led a platform database re-architecture initiative to implement active replication</li>
+<li>Currently implementing a GitOps pipeline for declarative, automated deployments</li>
 </ul>
-<h3><span>Teacher, CoderDojo</span> <span>July 2013 &ndash; Dec 2013</span></h3>
-<p>Global movement of free coding clubs for young people.</p>
+<h3><span>Lead DevOps Engineer, Aunalytics, Inc.</span> <span>May 2016 - Dec 2017</span></h3>
 <ul>
-<li>Awarded &lsquo;Teacher of the Month&rsquo;</li>
+<li>Co-led the transition from bare microservices to a container-based platform architecture</li>
+<li>Collaborated with a small group of engineers to select and integrate a container orchestrator</li>
+<li>Designed and developed an in-house data science notebooking platform</li>
+<li>Co-authored a zero-downtime deployment pipeline and process</li>
 </ul>
-<h2>Projects</h2>
-<h3><span>Miss Direction</span> <span>Aug 2016</span></h3>
-<p>A mapping engine that misguides you:</p>
+<h3><span>Software Engineer, Aunalytics, Inc.</span> <span>February 2014 - May 2016</span></h3>
 <ul>
-<li>Won award at AIHacks 2016</li>
-<li>Built by all women team of newbie programmers</li>
-<li>Using modern technologies such as GoogleMaps, Chrome Extension and Javascript</li>
+<li>Designed and coded the administrator interface for our data science software platform</li>
+<li>Programmed multiple software utilities for data science investigations</li>
+<li>Organized and performed platform maintenance, upgrades, and troubleshooting</li>
+<li>Used internal and external tools to perform data cleaning, data linking, and analysis</li>
+<li>Conducted conference calls with clients to share findings</li>
+</ul>
+<h3><span>Applications Developer, Morningstar, Inc.</span> <span>May 2012 - January 2014</span></h3>
+<ul>
+<li>Designed, implemented and maintained multiple Jenkins CI environments</li>
+<li>Developed Puppet framework for automated configuration management</li>
+<li>Gained extensive experience with Jenkins, Puppet, and Linux system administration</li>
+<li>Performed frequent, zero-downtime, production releases for mission-critical systems</li>
+<li>Worked with development teams to create automated product deployment solutions</li>
+</ul>
+<h3><span>Information Security Intern, Morningstar, Inc.</span> <span>September 2011 - May 2012</span></h3>
+<ul>
+<li>Applied knowledge of vulnerabilities to assist in securing enterprise applications</li>
+<li>Gained knowledge of specific tools and techniques for hardening</li>
+<li>Performed penetration tests on company applications</li>
+<li>Monitored company networks via intrusion detection system</li>
+</ul>
+<h3><span>Senior Rebate Analyst, Customer Finance, Solo Cup Co.</span> <span>November 2008 – May 2011</span></h3>
+<ul>
+<li>Designed and implemented multiple databases to improve speed and accuracy of accruals and reporting</li>
+<li>Responsible for millions in monthly rebate accrual calculations</li>
+<li>Presently result monthly to VPs and senior accountants</li>
+<li>Performed testing and documentation for third party software implementaion</li>
 </ul>
 <h2>Education</h2>
-<h3><span>University of Oklahoma, BA Information Technology</span> <span>2011 &ndash; 2014</span></h3>
+<h3>Loyola University Chicago, MS Software Engineering<span>2010 - 2013</span></h3>
 <ul>
-<li>GPA 4.0</li>
-<li>DB1101 - Basic SQL</li>
-<li>CS2011 - Java Introduction</li>
+<li>Dijkstra Award for Overall Academic Excellence, May 2012</li>
+<li>GPA 4.0 GPA</li>
 </ul>
-<h2>Skills</h2>
+<h3><span>The University of Notre Dame, BA Economics and Policy Studies</span><span>2002 – 2006</span></h3>
 <ul>
-<li>Web development: HTML, CSS, JavaScript</li>
-<li>Compression: Mpeg, MP4, GIF</li>
+<li>Minor in Music Theory</li>
+</ul>
+<h3>Honors, Skills, Activities</h3>
+<ul>
+<li>Brazilian Jiu-Jitsu Purple Belt, Avid musician</li>
+<li>Seven-Time Solo Strong Award Winner</li>
+<li>Two-time U.S. Bank Excel Award winner - November 2006 and March 2007</li>
 </ul></div>
 </body>
 </html>
